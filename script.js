@@ -19,13 +19,13 @@ let Buzz = 'Buzz';
 let FizzBuzz = 'FizzBuzz';
 
 for (let i = 1; i <= 100; i++) {
-    if (i % 3 === 0) {
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log(FizzBuzz);
+    } else if (i % 3 === 0) {
         console.log(Fizz);
     } else if (i % 5 === 0) {
         console.log(Buzz);
-    } else if (i % 3 !== 0 && i % 5 !== 0) {
+    } else {
         console.log(i);
-    } else { (i % 3 === 0 && i % 5 === 0)
-        console.log(FizzBuzz);
     }
 }
