@@ -7,15 +7,15 @@
 // i = 1 è il contatore. quello dopo (i<=100) è la condizione del contatore, che può essere vera o falsa. 
 // se è vera la condizione esegue il ciclo.
 // i++ è "di quanto aumenta il contatore" e il ciclo si interrompe quando la condizione dettata termina.
-let Fizz = '';
-let Buzz = '';
-let FizzBuzz = '';
+let Fizz = 'Fizz';
+let Buzz = 'Buzz';
+let FizzBuzz = 'FizzBuzz';
 
 for (let i = 1; i <= 100; i++) {
     if (i % 3 == 0) {
-    console.log(i, );
+    console.log(Fizz);
     } else if (i % 5 == 0) {
-        console.log(i);
+        console.log(Buzz);
     }
     
 }
